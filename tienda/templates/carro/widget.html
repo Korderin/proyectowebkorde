@@ -46,5 +46,13 @@
 
             </td>
         </tr>
+        {% if importe_total_carro > 0 %}
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <a href="{% url 'procesar_pedidos' %}" class="btn btn-success">Hacer Pedido</a>
+                </td>
+            </tr>
+        {% endif %}
+    
     </tfoot>
 </table>

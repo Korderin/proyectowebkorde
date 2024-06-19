@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     "contacto",
     "tienda",
     "carro",
+    "autenticacion",
+    "crispy_forms",
+    'crispy_bootstrap4',
+    "pedidos",
 ]
 
 MIDDLEWARE = [
@@ -141,3 +145,7 @@ EMAIL_PORT = 587  # Usa el puerto correcto para tu servidor SMTP
 EMAIL_USE_TLS = True  # Usa TLS si tu servidor lo requiere
 EMAIL_HOST_USER = 'felipeaguilarc.93@gmail.com'  # Tu dirección de correo electrónico
 EMAIL_HOST_PASSWORD = 'uxqk dwqs penx ahnl'  # Tu contraseña de correo electrónico
+
+
+CRISPY_ALLOWED_TEMPLATE_PACK = "bootstrap4"
+CRISPY_TEMPLATE_PACK='bootstrap4'
