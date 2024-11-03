@@ -143,8 +143,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  # Cambia esto por tu servidor SMTP
 EMAIL_PORT = 587  # Usa el puerto correcto para tu servidor SMTP
 EMAIL_USE_TLS = True  # Usa TLS si tu servidor lo requiere
-EMAIL_HOST_USER = 'felipeaguilarc.93@gmail.com'  # Tu dirección de correo electrónico
-EMAIL_HOST_PASSWORD = 'uxqk dwqs penx ahnl'  # Tu contraseña de correo electrónico
+EMAIL_HOST_USER = 'addyours'  # Tu dirección de correo electrónico
+EMAIL_HOST_PASSWORD = 'addyours'  # Tu contraseña de correo electrónico
 
 
 CRISPY_ALLOWED_TEMPLATE_PACK = "bootstrap4"
